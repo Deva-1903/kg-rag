@@ -40,20 +40,16 @@ End Goal
 - ✅ Basic evaluation (EM) on 10 questions
 
 Setup steps
+1. Clone repo
+   git clone <repo-url>
+   cd kg-rag
 
-## 1. Clone repo
+2. Create environment
+   conda create -n kg-rag python=3.10
+   conda activate kg-rag
 
-git clone <repo-url>
-cd kg-rag
+3. Install dependencies
+   pip install -r requirements.txt
+   python -m spacy download en_core_web_sm
 
-## 2. Create environment
-
-conda create -n kg-rag python=3.10
-conda activate kg-rag
-
-## 3. Install dependencies
-
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-
-## 4. Test
+4. Test
