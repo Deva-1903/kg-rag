@@ -1,0 +1,13 @@
+*.sh
+*.bin
+*.pkg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.envrc
+*.egg-info/
