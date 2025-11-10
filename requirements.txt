@@ -1,0 +1,11 @@
+torch
+transformers
+sentence-transformers
+faiss-cpu
+datasets
+pandas
+numpy
+spacy
+networkx
+python-dotenv
+tqdm
